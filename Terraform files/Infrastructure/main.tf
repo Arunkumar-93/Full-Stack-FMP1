@@ -41,7 +41,7 @@ resource "azurerm_app_service" "backend" {
   app_service_plan_id = azurerm_app_service_plan.plan.id
 
   site_config {
-    python_version = "3.10"
+    python_version = "3.4"
   }
 
   app_settings = {
